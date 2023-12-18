@@ -1,0 +1,11 @@
+#
+# OEM_BUILD_PROPERTIES
+#
+ro.build.version.incremental=7e278
+ro.build.version.ci=6
+ro.mot.build.guid=0ee3057d032c19c
+ro.mot.base_buildid=QMD30.47-33/f54b3
+ro.product.name=lima
+ro.mot.build.oem.product=lima
+ro.mot.build.customerid=retail
+ro.product.device=lima
