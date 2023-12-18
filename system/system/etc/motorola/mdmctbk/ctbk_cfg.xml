@@ -1,0 +1,19 @@
+<xml>
+    <ctbk_version>15</ctbk_version>
+    <sar_sensors>
+        <sensor type="prox_front"           index="0">PROXIMITY</sensor>
+        <sensor type="prox_back"            index="1">null</sensor>
+        <sensor type="cap_bottom_center"    index="2">null</sensor>
+        <sensor type="cap_bottom_right"     index="3">capsense_bottom_right</sensor>
+        <sensor type="cap_bottom_left"      index="4">capsense_bottom_left</sensor>
+        <sensor type="cap_top"              index="5">capsense_top</sensor>
+    </sar_sensors>
+    <!--OB5 config: 10 = 00001010b (capsense_bottom_right|capsense_top)-->
+    <ob5_sensor_config>10</ob5_sensor_config>
+    <!--Tx0 config: default: CapSensor id = 2 (capsense_bottom_right)-->
+    <!--Tx0 config: tas switch to top: CapSensor id = 4 (capsense_top)-->
+    <tx0_sensor_config>
+    <sensor_default index="0">2</sensor_default>
+    <sensor_tas index="1">4</sensor_tas>
+    </tx0_sensor_config>
+</xml>

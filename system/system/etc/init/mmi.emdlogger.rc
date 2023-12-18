@@ -1,0 +1,16 @@
+on post-fs-data
+   start mmi-emdlog-sh
+
+service mmi-emdlog-sh /system/bin/mmi.emdlog.sh
+    user root
+    disabled
+    oneshot
+
+on property:persist.mmi.enable.mdlog=true
+    mkdir /data/mdlog 0774 system system
+
+on property:persist.mmi.enable.ramdump=true
+    mkdir /data/ramdump 0664 shell system
+
+on property:persist.mmi.enable.debuglogger=true
+    mkdir /data/debuglogger 0664 shell log

@@ -1,0 +1,26 @@
+
+#
+# ADDITIONAL PRODUCT PROPERTIES
+#
+ro.build.characteristics=default
+ro.postinstall.fstab.prefix=/product
+persist.device_config.runtime_native.usap_pool_enabled=false
+Build.BRAND=MTK
+persist.sys.mmi_system_tuning=default
+ro.lmk.use_psi=true
+ro.config.use_compaction=true
+ro.config.compact_action_1=4
+ro.config.compact_action_2=2
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
+ro.com.google.rlzbrandcode=MOTC
+ro.setupwizard.rotation_locked=true
+setupwizard.theme=glif_v3_light
+ro.opa.eligible_device=true
+ro.com.android.prov_mobiledata=false
+ro.com.google.gmsversion=10_202009
+ro.com.google.ime.theme_id=4
+ro.gwfcactivation.disabled_carriers=1187,1492,28,1839
+ro.mot.build.customerid=retail
+ro.product.property_source_order=product,product_services,odm,vendor,system
+
